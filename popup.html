@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+        <style>
+            .btn {
+                width: 100%;
+                height: 40px;
+            }
+            .card-header {
+                color: white;
+                font-weight: 600;
+            }
+            #buttons {
+                width: 290px;;
+                display: flex;
+                justify-content: space-between;
+                padding: 3px;
+            }
+            p {
+                font-size: 12px;
+                font-style: italic
+            }
+            #png {
+                border-left-color: darkblue;
+                border-left-width: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+                <div class="card-header bg-secondary">Screen64</div>
+                <div class="card-body">
+                    <p>"This extension allows you to take a screenshot of the actual page and download it to various formats"</p>
+                    <div id="buttons">
+                        <div><button class="btn btn-success" id="base64">Base 64</button></div>
+                        <div class="btn-group">
+                            <button class="btn btn-primary" id="jpg">JPG</button>
+                            <button class="btn btn-primary" id="png">PNG</button>
+                        </div>
+                        <div><button class="btn btn-danger" id="pdf">PDF</button></div>
+                    </div>
+                </div>
+        </div>
+        <script type="text/javascript" src="popup.js"></script>
+    </body>
+</html>
