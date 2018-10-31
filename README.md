@@ -1,5 +1,5 @@
 # Screen64
-A Chrome extension to take screenshot and download them in various formats
+A Chrome extension to take screenshot and download them in various formats (Base64, JPG, PNG, PDF)
 
 How to install :
 - Clone the repository to a "Screen 64" folder
